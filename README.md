@@ -3,7 +3,8 @@ MachineLearning
 Just Some Notes During My Machine Learning Studying
 -----------------
 
->##contents
+>contents
+---------------
 >- Andrew Y. Ng Machine Learning's practice
 >- sklearn learning
 >- ect.
