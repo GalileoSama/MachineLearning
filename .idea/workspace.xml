@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e2c70a5-be4e-4e57-bde9-19e0330c1e7c" name="Default Changelist" comment="更新项目">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="3e2c70a5-be4e-4e57-bde9-19e0330c1e7c" name="Default Changelist" comment=".idea">
+      <change afterPath="$PROJECT_DIR$/吴恩达ML/评价模型.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sklearn/Ridge.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sklearn/Ridge.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/吴恩达ML/ex1data1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/吴恩达ML/practice/ex1data1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/吴恩达ML/linearRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/吴恩达ML/practice/linearRegression.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,41 +65,37 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="1" />
+          <entry key="gitignore" value="1" />
+          <entry key="ipynb" value="2" />
+          <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="1" />
+          <entry key="IPNB" value="2" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="243" />
-          <entry key="py" value="63" />
-          <entry key="txt" value="24" />
+          <entry key="gitignore" value="1" />
+          <entry key="md" value="266" />
+          <entry key="py" value="79" />
+          <entry key="txt" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="243" />
-          <entry key="PLAIN_TEXT" value="24" />
-          <entry key="Python" value="63" />
+          <entry key="Markdown" value="266" />
+          <entry key="PLAIN_TEXT" value="51" />
+          <entry key="Python" value="79" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sklearn/sklearn.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sklearn/Ridge.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
@@ -105,19 +106,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/ProgramData/Anaconda3/envs/ex1-linear regression/Lib/site-packages/numpy/core/function_base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="24" column="12" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="12" />
+        <entry file="file://$PROJECT_DIR$/Ridge.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/ProgramData/Anaconda3/envs/ex1-linear regression/Lib/site-packages/sklearn/model_selection/_validation.py">
+        <entry file="file://$PROJECT_DIR$/sklearn.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/吴恩达ML/评价模型.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="216">
+                <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28323">
-              <caret line="1069" column="41" selection-start-line="1069" selection-start-column="41" selection-end-line="1069" selection-end-column="41" />
+            <state relative-caret-position="376">
+              <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -134,21 +156,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="54">
-                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <first_editor relative-caret-position="189">
+                <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/ProgramData/Anaconda3/envs/ex1-linear regression/Lib/site-packages/sklearn/cross_validation.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -170,7 +187,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/吴恩达ML/ex1data1.txt">
+        <entry file="file://$PROJECT_DIR$/吴恩达ML/practice/ex1data1.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -196,6 +213,9 @@
         <option value="$PROJECT_DIR$/Ridge.py" />
         <option value="$PROJECT_DIR$/Ridge.ipynb" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/sklearn/Ridge.ipynb" />
+        <option value="$PROJECT_DIR$/吴恩达ML/评价模型.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -205,11 +225,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1966" />
-    <option name="y" value="30" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -228,6 +251,15 @@
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
               <item name="sklearn" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="吴恩达ML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -244,6 +276,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gitLocalRepo\MachineLearning\吴恩达ML\practice" />
       <recent name="D:\gitLocalRepo\MachineLearning\sklearn" />
       <recent name="C:\Users\UESTC\PycharmProjects\MachineLearning\吴恩达ML" />
       <recent name="C:\Users\UESTC\PycharmProjects\MachineLearning" />
@@ -344,11 +377,25 @@
       <option name="project" value="LOCAL" />
       <updated>1538190257033</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改了Readme">
+      <created>1538190585458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1538190585458</updated>
+    </task>
+    <task id="LOCAL-00005" summary=".idea">
+      <created>1538190644697</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1538190644697</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1966" y="30" width="1936" height="1056" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27025586" />
@@ -362,10 +409,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" visible="true" weight="0.2616721" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.2616721" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -378,6 +425,21 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_WIDTH">
+      <map>
+        <entry key="3" value="103" />
+      </map>
+    </option>
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -385,7 +447,9 @@
     <MESSAGE value="重新整理目录" />
     <MESSAGE value="修改了readme" />
     <MESSAGE value="更新项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新项目" />
+    <MESSAGE value="修改了Readme" />
+    <MESSAGE value=".idea" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/linearRegression.py" />
@@ -396,7 +460,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/吴恩达ML/linearRegression.ipynb">
+    <entry file="file://$PROJECT_DIR$/吴恩达ML/practice/linearRegression.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
@@ -441,7 +505,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/吴恩达ML/ex1data1.txt">
+    <entry file="file://$PROJECT_DIR$/吴恩达ML/practice/ex1data1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sklearn/Ridge.py">
@@ -454,6 +518,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="189">
+            <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ridge.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sklearn.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sklearn/Ridge.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -461,13 +549,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/吴恩达ML/评价模型.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <first_editor relative-caret-position="216">
+            <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
         </state>
       </provider>
     </entry>
