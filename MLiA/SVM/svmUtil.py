@@ -3,21 +3,28 @@ from numpy import *
 from numpy.core.umath import multiply
 
 
-def loadDataSet(filename):
+# 加载数据
+def loadDataSet(filename: object) -> object:
     dataMat = []
     labelMat = []
     file = open(filename)
     for line in file.readlines():
         lineArr = line.strip().split('\t')
-        dataMat.append([lineArr[0], lineArr[1]])
-        labelMat.append(lineArr[2])
+        # 坑！ 要用float（）将dataMat、labelMat中的成员转换成浮点类型
+        # 否则默认类型是U9，即无符号int 9bit类型，这种类型无法参与之后的multiply（）运算，
+        # 会抛出错误：ufunc 'multiply' did not contain a loop with signature matching types dtype('<U32')
+        #  dtype('<U32') dtype('<U32')
+        dataMat.append([float(lineArr[0]), float(lineArr[1])])
+        labelMat.append(float(lineArr[2]))
     return dataMat, labelMat
 
 
+# 随机返回一个不等于i的J
 def randomSelectJ(i, m):
-    j = i  # 随机返回一个不等于i的J
+    j = i
     while j == i:
-        j = random.uniform(0, m)
+        # 坑！random.uniform()返回变量类型是float类型，无法用于之后的切片操作，需要转换为int
+        j = int(random.uniform(0, m))
     return j
 
 
