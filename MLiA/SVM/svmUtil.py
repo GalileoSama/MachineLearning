@@ -19,7 +19,7 @@ def loadDataSet(filename: object) -> object:
     return dataMat, labelMat
 
 
-# 随机返回一个不等于i的J
+# 简化版smo：随机返回一个不等于i的J
 def randomSelectJ(i, m):
     j = i
     while j == i:
@@ -111,5 +111,18 @@ def simpleSMO(dataMatIn, classLabels, C, toler, maxIter):
                 iter = 0
             print("iteration number: %d" % iter)
         return b, alphas
+
+
+class optStruct:
+    def __init__(self, dataMatIn, classLabels, C, toler):
+        self.X = dataMatIn
+        self.labelMat = classLabels
+        self.C = C
+        self.tol = toler
+        self.m = shape(dataMatIn)[0]
+        self.alphas = mat(zeros((self.m, 1)))
+        self.b = 0
+        # 用于缓存E[有效标志位，实际值]
+        self.eCache = mat(zeros((self.m, 2)))
 
 
