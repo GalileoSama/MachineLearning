@@ -108,3 +108,7 @@ venv.bak/
 *.iws
 *.iml
 *.ipr
+
+# data
+kaggle/cats.Vs.Dogs/data
+pytorch-Learning/data
